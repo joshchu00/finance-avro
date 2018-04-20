@@ -5,7 +5,7 @@
   "fields": 
   [
     { "name": "datetime", "type": { "type": "long", "logicalType": "timestamp-millis" } },
-    { "name": "unit", "type": { "type": "fixed", "logicalType": "duration" } },
+    { "name": "unit", "type": { "type": "fixed", "logicalType": "duration", "size": 12 } },
     { "name": "symbol", "type": "string" },
     { "name": "name", "type": "string" },
     { "name": "volumn", "type": "long" },
