@@ -1,0 +1,24 @@
+{
+  "namespace": "idv.trashchu.finance.avro",
+  "type": "record",
+  "name": "StockRecord",
+  "fields": 
+  [
+    { "name": "datetime", "type": { "type": "long", "logicalType": "timestamp-millis" } },
+    { "name": "unit", "type": { "type": "fixed", "logicalType": "duration" } },
+    { "name": "symbol", "type": "string" },
+    { "name": "name", "type": "string" },
+    { "name": "volumn", "type": "long" },
+    { "name": "transaction", "type": "long" },
+    { "name": "value", "type": "long" },
+    { "name": "open", "type": "double" },
+    { "name": "high", "type": "double" },
+    { "name": "low", "type": "double" },
+    { "name": "close", "type": "double" },
+    { "name": "change", "type": "double" },
+    { "name": "lastBidPrice", "type": "double" },
+    { "name": "lastBidVolume", "type": "long" },
+    { "name": "lastAskPrice", "type": "double" },
+    { "name": "lastAskVolume", "type": "long" }
+  ]
+}
